@@ -4,11 +4,6 @@ import Content from './Content';
 import Footer from './Footer'
 
 function App() {
-  const handleNameChange = () => {
-    const names = ['bob', 'kevin', 'dave'];
-    const int = Math.floor(Math.random() * 3);
-    return names[int];
-  }
 
   return (
     <div className="App">
